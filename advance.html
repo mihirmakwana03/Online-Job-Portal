@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Online Job Portal</title>
+
+
+    <link href="default.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+
+
+    <div id="header">
+        <div id="logo">
+            <h1><a href="#"><span>Online Job Portal</span></a></h1>
+
+        </div>
+        <div id="menu">
+            <ul id="main">
+                <li class="current_page_item"><a href="home.html">Home</a></li>
+                <li><a href="seeker.html">Employee Register</a></li>
+                <li><a href="employer.html">Employer Register</a></li>
+
+            </ul>
+            <ul id="feed">
+                <li><a href="search.html">Search</a></li>
+                <li><a href="logout.jsp">Log Out</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div id="wrapper">
+        <!-- start page -->
+        <div id="page">
+            <div id="page-bgtop">
+                <div id="page-bgbtm">
+
+
+                    <div id="content">
+                        <div class="post">
+                            <h1 class="title">
+                                <font size=5>Advanced Job Search</font>
+                                <form name="adsearch" action="ad_search.jsp" method="post">
+                                    <p>
+                                        <font size=4></font>
+                                    </p>
+                            </h1>
+                            <p>Enter keywords,job categories,location,etc, to start your search.</p>
+                            <p><input type="text" size="50" name="search"></p>
+                            <p>Keywords(eg:c,c++,java),categories(eg:IT,sales,call centers)</p>
+                            <p>Job Location:<select name="location" value="">
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Kolkata">Kolkata</option>
+                                    <option value="Chennai">Chennai</option>
+                                </select></p>
+                            <p>Job category:<select name="j_cat" value="">
+                                    <option value="IT">IT</option>
+                                    <option value="sales">Sales</option>
+                                    <option value="finance">Finance</option>
+                                    <option value="marketing">Marketing</option>
+                                </select></p>
+                            <p></p>
+                            <p>
+                            <center><input type="submit" value="Start Advanced Search"></center>
+                            </form>
+                            </p>
+                            <p>
+                                <font size=3><a href="seek_profile.jsp">Quick Job Search</a>|<a href="job_cat.jsp">Jobs
+                                    by Category</a>|<a href="job_loc.jsp">Jobs by Location</a></font>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="sidebar2" class="sidebar">
+                    <ul>
+
+                        <li>
+
+                        </li>
+                        <li>
+                            <h2>Are you an Employer?</h2>
+                            <p>
+                            <ul><a href="">CLICK HERE.</a></ul>
+                            </p>
+                        </li>
+                        <li>
+                            <h2>job seekers check your inbox</h2>
+                            <form action="inbox.jsp" method="post">
+                                <p>Username:<input type="text" name="j_id"></p>
+                                <p>Password:<input type="password" name="pwd"></p>
+                                <p><input type=submit value="Check Inbox" name="inbox">
+                            </form>
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p class="copyright">
+            <font size=4> Copyright © Online Job Portal</font>
+        </p>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Online Job Portal</title>
+
+
+    <link href="default.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <!-- start header -->
+    <div id="header">
+        <div id="logo">
+            <h1><a href="#"><span>Online Job Portal</span></a></h1>
+        </div>
+        <div id="menu">
+            <ul id="main">
+                <li class="current_page_item"><a href="home.html">Home</a></li>
+                <li><a href="seeker.html">Employee Register</a></li>
+                <li><a href="employer.html">Employer Register</a></li>
+
+            </ul>
+            <ul id="feed">
+                <li><a href="search.html">Search</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="wrapper">
+        <!-- start page -->
+        <div id="page">
+            <div id="page-bgtop">
+                <div id="page-bgbtm">
+
+                    <div id="content">
+                        <div class="post">
+                            <h1 class="title">
+                                <font size=5>Online Candidates Search</font>
+                                <p>
+                                    <font size=4>Easy way to find your candidate!</font>
+                                </p>
+                            </h1><br>
+                            <p>Enter keywords, location to start your search.</p>
+                            <form name="qsearch" action="q_search.jsp" method="post">
+                                <p>Skills: <input type="text"  name="f1" placeholder="Java, C++, PHP">&nbsp;&nbsp;&nbsp;
+                                    City: <input type="text"  name="f2" placeholder="Anand, Mumbai, Banglore">
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="submit" value="Start Search">
+                                </p>
+                            </form>
+                            <p>Keywords(Eg: C, C++, Java), City(Eg: Mumbai, Banglore)</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="sidebar2" class="sidebar">
+                    <ul>
+                        <li>
+
+                            <div>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <h2>NEW EMPLOYERS?</h2>
+
+                            <p><a href="employer.html">Click here to register now!</a></p>
+                            <p>Keep your user id and password safe! </p>
+                        </li>
+                        <li>
+                            <h2>Are you a JOB SEEKER?</h2>
+                            <p>
+                            <ul><a href="seeker.html">CLICK HERE.</a></ul>
+                            </p>
+                        </li>
+                        <li>
+                            <h2>Ease your SEARCH BY</h2>
+                            <p>CATEGORY:<a href="jobcat1.jsp"> IT|Sales|Finance|Marketing</a></p>
+                            <p>LOCATION:<a href="place1.jsp"> Delhi|Mumbai|Kolkata|Chennai</a></p>
+                            <p>TYPE:<a href="type1.jsp"> Company|Placement Agency</a></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p class="copyright">
+                <font size=4> Copyright © Online Job Portal</font>
+            </p>
+        </div>
+</body>
+
+</html>

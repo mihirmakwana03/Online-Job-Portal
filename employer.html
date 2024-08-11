@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Online Job Portal</title>
+
+
+    <link href="default.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <!-- start header -->
+    <div id="header">
+        <div id="logo">
+            <h1><a href="#"><span>Online Job Portal</span></a></h1>
+        </div>
+        <div id="menu">
+            <ul id="main">
+                <li class="current_page_item"><a href="home.html">Home</a></li>
+                <li><a href="seeker.html">Employee Register</a></li>
+                <li><a href="employer.html">Employer Register</a></li>
+
+            </ul>
+            <ul id="feed">
+                <li><a href="search.html">Search</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- end header -->
+    <div id="wrapper">
+        <!-- start page -->
+        <div id="page">
+            <div id="page-bgtop">
+                <div id="page-bgbtm">
+
+                    <!-- start content -->
+                    <div id="content">
+                        <div class="flower"></div>
+                        <div class="post">
+                            <h1 class="title"><a href="#">New Employers-REGISTRTION:</a></h1>
+                            <p class="byline"></p>
+                            <div class="entry">
+                                <form name="employer" action="empreg.jsp" method="post">
+                                    <p>
+                                    <h2>EMPLOYER DETAILS:</h2>
+                                    </p>
+                                    <ul>
+                                        <li><label for="email">E-mail:</label>
+                                            <input class="textbox" type="text" size="15" name="email" id="email">
+                                        </li>
+                                        <li><label for="f_name">First Name:</label>
+                                            <input class="textbox" type="text" size="15" name="fname" id="f_name">
+                                        </li>
+                                        <li><label for="l_name">Last Name:</label>
+                                            <input class="textbox" type="text" size="15" name="lname" id="l_name">
+                                        </li>
+                                        <li><label for="phone_no">Phone:</label>
+                                            <input class="textbox" type="text" size="15" name="phone_no" id="phone_no">
+                                        </li>
+<!--                                        <li><label for="mobile_no">Mobile:</label>
+                                            <input class="textbox" type="text" size="15" name="mobile_no"
+                                                id="mobile_no">
+                                        </li>
+                                        <li><label for="address">Address:</label>
+                                            <input class="textbox" type="text" size="15" name="address" id="address">
+                                        </li>-->
+                                        <li><label for="e_id">Desired UserName:</label>
+                                            <input class="textbox" type="text" size="15" name="e_id" id="e_id">
+                                        </li>
+                                        <li><label for="password">Password:</label>
+                                            <input class="textbox" type="password" size="15" name="password"
+                                                id="password">
+                                        </li>
+                                        <li><label for="password_confirm">Re-type Password:</label>
+                                            <input class="textbox" type="password" size="15" name="password_confirm"
+                                                id="password_confirm">
+                                        </li>
+                                    </ul>
+                                    <p>
+                                    <h2>COMPANY DETAILS:</h2>
+                                    </p>
+                                    <ul>
+                                        <li><label for="c_name">Company Name:</label>
+                                            <input type="text" class="textbox" size="15" name="c_name" id="c_name">
+                                        </li>
+                                        <li><label for="reg_no">Registration No:</label>
+                                            <input type="text" class="textbox" size="15" name="reg_no" id="reg_no">
+                                        </li>
+<!--                                        <li><label for="c_type">Type:</label>
+                                            <select class="selectbox" name="c_type" id="c_type">
+                                                <option value="company">Company Type</option>
+                                                <option value="placement agency">Placement Agency Type</option>
+                                            </select>
+                                        </li>
+                                        <li><label for="skills">Key Skills:</label>
+                                            <input type="text" class="textbox" size="15" name="skills" id="skills">
+                                        </li>
+                                        <li><label for="no_vac">No of vacancy:</label>
+                                            <select class="selectbox" name="no_vac" id="no_vac">
+                                                <option value="0">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="more than 6">more than 6</option>
+                                            </select>
+                                        </li>-->
+<!--                                        <li><label for="job_cat">Category:</label>
+                                            <select class="selectbox" name="job_cat" id="job_cat">
+                                                <option value="">Null</option>
+                                                <option value="IT">IT</option>
+                                                <option value="sales">Sales</option>
+                                                <option value="finance">Finance</option>
+                                                <option value="marketing">Marketing</option>
+                                            </select>
+                                        </li>-->
+<!--                                        <li><label for="q_id">Qualification:</label>
+                                            <select class="selectbox" name="q_id" id="q_id">
+                                                <option value="Aviation">Aviation</option>
+                                                <option value="B.A.">B.A.</option>
+                                                <option value="B.Arch">B.Arch</option>
+                                                <option value="B.C.A">B.C.A</option>
+                                                <option value="C.A.">C.A.</option>
+                                                <option value="Diploma">Diploma</option>
+                                                <option value="MBA">MBA</option>
+                                            </select>
+                                        </li>
+                                        <li><label for="req">Requirement:</label>
+                                            <select class="selectbox" name="req" id="req">
+                                                <option value="immediate">Immediate</option>
+                                                <option value="within 1 month">Within 1 month</option>
+                                                <option value="within 3 months">Within 3 months</option>
+                                                <option value="within 6 months">Within 6 months</option>
+                                                <option value="within 12 months">Within 12 month</option>
+                                            </select>
+                                        </li>-->
+                                    </ul>
+                                    <p>
+                                    <h2>LOCATION:</h2>
+                                    </p>
+                                    <ul class="form-field"><label for="addr1">Address:</label>
+                                        <input type="text" class="textbox" size="15" name="addr1" id="addr1">
+                                    </ul>
+                                    <ul class="form-field"><label for="country">Country:</label>
+                                        <select class="selectbox" name="country" id="country">
+                                            <option value="india">India</option>
+                                        </select>
+                                    </ul>
+                                    <ul class="form-field"><label for="city">City:</label>
+                                        <select class="selectbox" name="city" id="city">
+                                            <option value="Delhi">Delhi</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                        </select>
+                                    </ul>
+                                    <ul class="form-field">
+                                        <li class="center"><input type="submit" value="Submit"></li>
+                                    </ul>
+                                </form>
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- end content -->
+                <!-- start sidebars -->
+                <div id="sidebar2" class="sidebar">
+                    <ul>
+                        <li></li>
+                        <li>
+
+                            <div>
+                                <h2>important notice</h2>
+
+                                <font size=4>
+                                    <p>Keep your id and password safe!</p>
+                                    <p>REGISTER FIRST TO LOG IN</p>
+                                </font>
+                            </div>
+
+                        </li>
+                        
+                        <li>
+                            <h2>Employer Login:</h2>
+                            <form name="emp_login2" action="emp_login.jsp" method="post">
+
+                                <ul class="login-form">
+                                    <li>
+                                        <label for="e_id">Username:</label>
+                                        <input type="text" name="e_id" size="15">
+                                    </li>
+                                    <li>
+                                        <label for="pwd">Password:</label>
+                                        <input type="password" name="pwd" size="15">
+                                    </li>
+                                    <li class="center">
+                                        <input type="submit" value="Sign in">
+                                    </li>
+                                </ul>
+                            </form>
+                        </li>
+
+
+
+                        <li>
+                            <h2>Are you a JOB SEEKER?</h2>
+                            <p>
+                            <ul><a href="seeker.html">CLICK HERE.</a></ul>
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- end sidebars -->
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end page -->
+
+    <div id="footer">
+        <p class="copyright"> Copyright © Online Job Portal</p>
+    </div>
+</body>
+
+</html>

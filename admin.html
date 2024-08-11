@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Online Job Portal</title>
+    <link href="default.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+    <!-- start header -->
+    <div id="header">
+        <div id="logo">
+            <h1><a href="#"><span>Online Job Portal</span></a></h1>
+        </div>
+        <div id="menu">
+            <ul id="main">
+                <li class="current_page_item"><a href="home.html">Home</a></li>
+                <li><a href="seeker.html">Employee Register</a></li>
+                <li><a href="employer.html">Employer Register</a></li>
+
+            </ul>
+            <ul id="feed">
+                <li><a href="search.html">Search</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- end header -->
+
+    <div id="wrapper">
+        <!-- start page -->
+        <div id="page">
+            <div id="page-bgtop">
+                <div id="page-bgbtm">
+
+                    <!-- start content -->
+                    <div id="content">
+                        <div class="flower"></div>
+                        <div class="post">
+                            <h1 class="title"><a href="#">
+                                    <font size=5>Already a Member? Login here.</font>
+                                </a></h1>
+                            <p class="byline"></p>
+                            <div class="entry">
+                            <form name="admin_login" action="ad_login.jsp" method="post">
+                                <ul style="text-align:center;list-style:none;">
+                                    <li style="display:inline-block;text-align:left;">
+                                        <label for="u_id">Admin Name:</label>
+                                        <input type="text" name="u_id" id="u_id" value="" size="15"  class="textbox">
+                                    </li>
+                                    <li style="display:inline-block;text-align:left;">
+                                        <label for="pwd">Password:</label>
+                                        <input type="password" name="pwd" id="pwd" value="" size="15"  class="textbox">
+                                    </li>
+                                    <li style="text-align:center;"  class="center">
+                                        <input type="submit" value="Log In">
+                                    </li>
+                                </ul>
+                            </form>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- end content -->
+                <!-- start sidebars -->
+
+                <!-- end sidebars -->
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end page -->
+
+    <div id="footer">
+        <p class="copyright">
+            <font size=4>Copyright © Online Job Portal</font>
+        </p>
+    </div>
+</body>
+
+</html>
